@@ -148,12 +148,13 @@ img {
 
 .contact-icon {
         margin-right: 10px;
+        fill: currentColor;
 }
 
-.contact-icon:hover,
+/* .contact-icon:hover,
 .contact-icon:focus {
         fill: var(--accent-cl);
-}
+} */
 
 .overlay {
         max-width: 1600px;
@@ -433,6 +434,12 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
         justify-content: center;
 }
 
+.thumb-clients:hover,
+.thumb-clients:focus {
+        border-color: var(--accent-cl);
+}
+
+
 .clients-list {
         display: flex;
         gap: 30px;
@@ -446,6 +453,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 .clients-link .clients-icon:hover,
 .clients-link .clients-icon:focus {
         fill: var(--accent-cl);
+      
 }
 
 .footer-text {
