@@ -143,11 +143,16 @@ img {
 .link-header-contacts:hover,
 .link-header-contacts:focus,
 .current-page {
-        color: var(--accent-cl);
+        color: var(--accent-cl);        
 }
 
-.contact-link {
+.contact-icon {
         margin-right: 10px;
+}
+
+.contact-icon:hover,
+.contact-icon:focus {
+        fill: var(--accent-cl);
 }
 
 .overlay {
