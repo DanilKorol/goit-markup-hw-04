@@ -8,6 +8,7 @@
     --black-text-cl: #212121;
     --white-text-cl: #FFFFFF;
     --accent-cl: #2196F3;
+    --items-cl: #AFB1B8;
 
      /* background-color: ; */
      --white-bg-cl:#FFFFFF;
@@ -240,6 +241,17 @@ img {
         margin-bottom: 10px;
 }
 
+.thumb {
+        display: flex;
+        background-color: var(--grey-bg-cl);
+        border-radius: 4px;
+        margin-bottom: 30px;
+        width: 270px;
+        height: 120px;
+        justify-content: center;
+        align-items: center;
+}
+
 .work-list {
         --card-item: 3;
 }
@@ -258,6 +270,10 @@ img {
         text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
+
+        background: var(--white-bg-cl);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
 }
 
 .team-title {
@@ -272,6 +288,7 @@ img {
         font-size: 16px;
         line-height: 1.19;
         letter-spacing: 0.03em;
+        margin-bottom: 16px;
 }
 
 .team {
@@ -363,3 +380,62 @@ background-color: var(--accent-cl);
         font-size: 16px;
         line-height: 1.88;
 }
+
+.socials {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+}
+
+.socials-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        fill: var(--items-cl);
+}
+
+.socials-link:hover,
+.socials-link:focus {
+        fill: var(--white-bg-cl);
+        background-color: var(--accent-cl);
+}
+
+.thumb-clients {
+        display: flex;
+        border: 1px solid var(--items-cl);
+        border-radius: 4px;
+        width: 170px;
+        height: 92px;
+        align-items: center;
+        justify-content: center;
+}
+
+.clients-list {
+        display: flex;
+        gap: 30px;
+
+}
+
+/* .thumb {
+        display: flex;
+        background-color: var(--grey-bg-cl);
+        border-radius: 4px;
+        margin-bottom: 30px;
+        width: 270px;
+        height: 120px;
+        justify-content: center;
+        align-items: center;
+} */
+/* border: 1px solid #AFB1B8;
+border-radius: 4px; */
+/* .btn-list {
+        gap: 8px;
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+} */
